@@ -11,7 +11,6 @@
   },
   "devDependencies": {
     "typedoc": "^0.26.5",
-    "typedoc-github-wiki-theme": "^2.0.0",
     "typedoc-plugin-markdown": "^4.2.3"
   }
 }
