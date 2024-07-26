@@ -1,0 +1,16 @@
+{
+    "entryPoints": ["./src/*"], // 指定了 TypeScript 源文件的入口点
+    "exclude": [
+        "./src/User.ts",
+        // "**/__tests__/**",
+        // "**/node_modules/**"
+      ],                    // 排除打包的文件目录
+    "out": "./docs",        // 指定了生成文档的输出目录
+    "theme": "default",     // 指定了文档的主题
+    // "theme": "./node_modules/typedoc-github-wiki-theme",
+    // "customCss": "./theme/style.css",    // 指定了 TypeScript 源文件的入口点
+    // "readme": "./README.md",     //指定了 README 文件的路径
+    "githubPages": true,            //指定是否为 GitHub Pages 生成 .nojekyll 文件
+    "$schema": "https://typedoc.org/schema.json",
+    // "plugins": "typedoc-github-wiki-theme"  // 指定了要加载的第三方插件
+  }
